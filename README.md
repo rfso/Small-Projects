@@ -1,4 +1,4 @@
-#  :package: Small Projects (STILL UNDER CONSTRUCTION !!!!!!!!!!!!!!!!)
+#  :package: Small Projects (STILL UNDER CONSTRUCTION)
 
 ## 🔍 Full Access:
 
@@ -18,3 +18,8 @@ I'll be constantly updating this section as soon as I add a new technology to an
 -   HTML5;
 -   CSS3;
 -   Javascript.
+
+
+## Things that still needs to be done:
+- Fix the responsive/mobile version;
+- Add my own projects (the images currently added are just placeholders).
