@@ -1,4 +1,4 @@
-#  :package: Small Projects (STILL UNDER CONSTRUCTION)
+#  :package: Small Projects (Still under construction)
 
 ## 🔍 Full Access:
 
