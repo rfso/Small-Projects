@@ -5,7 +5,6 @@ body {
     height: 100vh;
     font-size: 1.5rem;
     border-radius: 50px;
-
 }
 
 .wrapper {
@@ -16,9 +15,17 @@ body {
     position: relative;
     left: 10%;
     top: 5%;
-    -webkit-box-shadow: 2px 4px 21px -1px rgba(255, 255, 255, 0.356);
-    -moz-box-shadow: 2px 4px 21px -1px rgba(255, 255, 255, 0.356);
-    box-shadow: 2px 4px 21px -1px rgba(255, 255, 255, 0.356);
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    -webkit-box-shadow: 2px 2px 10px 1px rgba(255, 255, 255, 0.356);
+    -moz-box-shadow: 2px 2px 10px 1px rgba(255, 255, 255, 0.356);
+    box-shadow: 3px 3px 10px -1px rgba(255, 255, 255, 0.356);
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
 }
 
 .header {
@@ -156,18 +163,18 @@ and (max-width: 480px) {
 
 @media only screen 
 and (min-width: 481px) 
-and (max-width: 767px) {
+and (max-width: 723px) {
 
     .wrapper {
         overflow: scroll;
-        width: 90vw;
-        left: 5%;
+        width: 85vw;
+        left: 8%;
         top: 3%;
     }
 
     .header {
         position: relative;
-        left:10%
+        left:3%
     }
     
    .header__text {
@@ -180,7 +187,7 @@ and (max-width: 767px) {
     }
     
     .main__item {
-        width: 92%;
+        width: 64vw;
         margin-bottom: 2rem;
     }
 
@@ -189,7 +196,7 @@ and (max-width: 767px) {
     }
 
     .main__images {
-        object-fit: contain; 
+        object-fit: cover; 
     }
 
     .main__buttons {
