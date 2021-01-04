@@ -13,56 +13,55 @@
     margin-top: 2.1em;
     height:3.5vh;
     width: 12vw;
-    font-size:0.8em;
+    font-size: 0.8em;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
-    padding:0 2em;
-    cursor:pointer;
-    transition:800ms ease all;
-    outline:none;
-   
+    padding: 0 2em;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
   }
 
 .main__buttons__first {
-    background:#000000;
-    color:rgb(255, 255, 255);
+    background: #000000;
+    color: rgb(255, 255, 255);
 }
 
 .main__buttons__second {
-    background:#000000;
-    color:rgb(255, 255, 255);
+    background: #000000;
+    color: rgb(255, 255, 255);
 }
 
 .main__buttons__third {
-    background:#000000;
-    color:rgb(255, 255, 255);
+    background: #000000;
+    color: rgb(255, 255, 255);
 }
 
 .main__buttons:hover {
-    background:rgb(255, 255, 255);
-    color:#000000;
+    background: rgb(255, 255, 255);
+    color: #000000;
   }
 
 .main__buttons:before,.main__buttons:after {
     content:'';
-    position:absolute;
-    top:0;
-    right:0;
-    height:2px;
-    width:0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
     background: #000000;
-    transition:400ms ease all;
+    transition: 400ms ease all;
 }
 
 .main__buttons:after {
-    right:inherit;
-    top:inherit;
-    left:0;
-    bottom:0;
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
 }
 
 .main__buttons:hover:before,.main__buttons:hover:after {
-    width:100%;
-    transition:700ms ease all;
+    width: 100%;
+    transition: 700ms ease all;
 }
  
