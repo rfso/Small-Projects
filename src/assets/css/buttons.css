@@ -22,17 +22,7 @@
     outline: none;
   }
 
-.main__buttons__first {
-    background: #000000;
-    color: rgb(255, 255, 255);
-}
-
-.main__buttons__second {
-    background: #000000;
-    color: rgb(255, 255, 255);
-}
-
-.main__buttons__third {
+.main__buttons__first, .main__buttons__second, .main__buttons__third {
     background: #000000;
     color: rgb(255, 255, 255);
 }
