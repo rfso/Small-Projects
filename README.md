@@ -2,7 +2,7 @@
 
 ## 🔍 Full Access:
 
-You can access the main (and single) page here: LINK (soon)
+You can access the main (and single) page here: https://rfso.github.io/Small-Projects/
 
 ##  📌 About
 
@@ -10,7 +10,7 @@ The main idea behind the creation of this 'repo' is to showcase in a single plac
 
 ## :gear: How This Works:
 
-Opening this link (LINK...SOON) you'll gain access to a single page where all projects will be shown. Each project has its own page link, also you can check the details and the code behind the project by clicking on the second link.
+Opening this link (https://rfso.github.io/Small-Projects/) you'll gain access to a single page where all projects will be shown. Each project has its own page link, also you can check the details and the code behind the project by clicking on the second link.
 
 ## 💻  Tools/Technologies:
 
